@@ -4,9 +4,9 @@ Alsatian
 ampharos
 ant
 arcanine
-arctic_fox
-arctic_wolf
-Asian_dragon
+arctic fox
+arctic wolf
+Asian dragon
 asp
 ATV
 bandwagon
@@ -17,22 +17,22 @@ big_rig
 bison
 blastoise
 blitzle
-boa_constrictor
+boa constrictor
 borzoi
 buffalo
 bugbear
 bulldog
-Cane_Corso
+Cane Corso
 car
 cat
-Catahoula_cur
+Catahoula cur
 charizard
 charmander
 charmeleon
 cheetah
 chipmunk
 chuckwagon
-clouded_leopard
+clouded leopard
 cobra
 cockroach
 colt
@@ -56,11 +56,11 @@ duck
 dudunsparce
 dunsparce
 durant
-Dutch_angel_dragon
+Dutch angel dragon
 eevee
 elephant
 espeon
-Ethiopian_wolf
+Ethiopian wolf
 falcon
 fennec
 ferret
@@ -74,13 +74,13 @@ fruit_bat
 gardevoir
 gargoyle
 gecko
-German_shepherd
+German shepherd
 Gila_monster
 giraffe
 glaceon
 goat
 gogoat
-golden_retriever
+golden retriever
 Great_Dane
 greavard
 growlithe
@@ -102,7 +102,7 @@ jackal
 jaguar
 jolteon
 kangaroo
-king_leopard
+king leopard
 kitsune
 kitten
 kobold
@@ -118,7 +118,7 @@ luxray
 lycanroc
 mabosstiff
 malamute
-maned_wolf
+maned wolf
 mareep
 maschiff
 mastiff
@@ -134,7 +134,7 @@ ocelot
 otter
 owl
 owlbear
-palmetto_bug
+palmetto bug
 pegasus
 persian
 phanpy
@@ -142,14 +142,14 @@ pig
 pigeon
 pinsir
 plane
-polar_bear
+polar bear
 pony
 ponyta
 poodle
 possum
 pterodactyl
 pup
-qi_lin
+qi lin
 rabbit
 raccoon
 rapidash
@@ -174,28 +174,28 @@ skag
 skiddo
 skunk
 snake
-snow_leopard
+snow leopard
 spider
 squirrel
 squirtle
-St._Bernard
+St. Bernard
 stag
-stag_beetle
+stag beetle
 stantler
 stoat
 sylveon
-T._rex
+T. rex
 tanuki
 tauros
 taxicab
 teddiursa
 tiger
 tigon
-timber_wolf
+timber wolf
 toad
 trailer
 train
-tree_frog
+tree frog
 triceratops
 tricycle
 truck
@@ -203,7 +203,7 @@ umbreon
 unicorn
 ursaring
 Utahraptor
-vampire_bat
+vampire bat
 vaporeon
 velociraptor
 viper

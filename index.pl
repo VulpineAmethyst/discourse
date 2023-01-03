@@ -81,7 +81,6 @@ sub pull($field) {
 		);
 		$sth->execute;
 		my $ret = $sth->fetchrow_array;
-		$ret =~ s/_/ /g;
 		return $ret;
 	}
 }
