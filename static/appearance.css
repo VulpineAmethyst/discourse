@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    line-height: 150%;
+}
+p {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+}
+.twitter {
+    margin: 1ex auto;
+}
+.author, .tweet, .datetime {
+    grid-column: 1/1;
+}
+.author, .datetime {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+}
+.twitter {
+    border-left-width: 4px;
+    border-left-style: solid;
+    max-width: 520px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: grid;
+}
+img {
+    margin-right: 8px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 50%;
+}
+#avatar {
+    width: 24px;
+    height: 24px;
+}
+.grid1 {
+    overflow: hidden;
+    padding: .5rem 1rem 1rem .75rem;
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.adata {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.tweet, .numberwang .block {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+.tweet {
+    white-space: pre-line;
+}
+.datetime {
+    grid-row: auto/auto;
+    margin-top: 8px;
+}
+.datetime img {
+    width: 20px;
+    height: 20px;
+}
+.datetime .text {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.numberwang {
+    display: grid;
+    grid-column: 1/1;
+    margin-top: 8px;
+    grid-gap: 8px;
+}
+.numberwang .block-left {
+    grid-column: 1/7;
+}
+.numberwang .block-right {
+    grid-column: 7/13;
+}
+.numberwang .label {
+    font-weight: 600;
+    margin-bottom: 2px;
+}

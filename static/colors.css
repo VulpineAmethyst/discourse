@@ -1,0 +1,26 @@
+#avatar {
+    background-color: #555;
+}
+.twitter {
+    border-left-color: #1DA1F2;
+}
+@media (prefers-color-scheme: light) {
+    body {
+        color: #000;
+        background-color: #F2F2F2;
+    }
+    .twitter {
+        background-color: #F2F3F5;
+        color: #2E3338;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #BBB;
+        background-color: #000;
+    }
+    .twitter {
+        background-color: #2F3136;
+        color: #dcddde;
+    }
+}
