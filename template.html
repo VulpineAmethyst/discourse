@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="og:title" content="Furry Discourse Generator">
+		<meta name="og:description" content="What are the furries talking about this time?">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="\@vulpineamethyst">
+		<meta name="twitter:title" content="Furry Discourse Generator">
+		<meta name="twitter:description" content="What are the furries talking about this time?">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+		<title>Furry Discourse Generator</title>
+		<link href="appearance.css" rel="stylesheet">
+		<link href="colors.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Today's furry discourse is:</h1>
+		<article class="twitter">
+			<div class="grid1">
+				<div class="author">
+					<img id="avatar">
+					<span class="adata">{author} ({user})</span>
+				</div>
+				<div class="tweet">
+					{discourse}
+				</div>
+				<div class="numberwang">
+					<div class="block-left">
+						<div class="label">Retweets</div>
+						<div>{retweets}</div>
+					</div>
+					<div class="block-right">
+						<div class="label">Likes</div>
+						<div>{likes}</div>
+					</div>
+				</div>
+				<div class="datetime">
+					<img src="twitter.png">
+					<span class="text">Twitter • {date}</span>
+				</div>
+			</div>
+		</article>
+		<p>Disclaimer: These are things actual furries have actually said, albeit paraphrased. They do not reflect the opinions of the author or web host.</p>
+		<p>Want to support this site? <a rel="me" href="https://ko-fi.com/vulpineamethyst">Buy me a coffee!</a></p>
+		<p>Have discourse to add? I'm <a rel="me" href="https://social.treehouse.systems/\@VulpineAmethyst">\@VulpineAmethyst\@treehouse.systems</a> on Mastodon.</p>
+		<p>You may, if you choose, <a href="?src=1">read the source code</a>.</p>
+		<p>There is a <a href="changelog.txt">list of changes</a>.</p>
+	</body>
+</html>
