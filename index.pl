@@ -77,7 +77,7 @@ sub pull($field) {
 		my $sth = $db->prepare(
 			'select data from ' . $field .
 			' where rowid = (abs(random()) % (select (select max(rowid) from ' . 
-			$field . ')+1));'
+			$field . '))+1);'
 		);
 		$sth->execute;
 		my $ret = $sth->fetchrow_array;
