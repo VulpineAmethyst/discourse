@@ -13,7 +13,7 @@ bandwagon
 bear
 beetle
 bicycle
-big_rig
+big rig
 bison
 blastoise
 blitzle
@@ -65,23 +65,23 @@ falcon
 fennec
 ferret
 fidough
-fire_ant
+fire ant
 flaafy
 flareon
 fox
 frog
-fruit_bat
+fruit bat
 gardevoir
 gargoyle
 gecko
 German shepherd
-Gila_monster
+Gila monster
 giraffe
 glaceon
 goat
 gogoat
 golden retriever
-Great_Dane
+Great Dane
 greavard
 growlithe
 gryphon
