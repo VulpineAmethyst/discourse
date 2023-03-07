@@ -32,7 +32,6 @@ use DBI;
 
 no warnings "experimental::signatures";
 
-
 # data
 my $db = DBI->connect('dbi:SQLite:dbname=discourse.db', '', '');
 my $rand = Math::Random::MT::Auto->new();
@@ -51,6 +50,7 @@ sub pull($field) {
 	} elsif ($field eq 'handle') {
 		my $ret = lc(pull('user'));
 		$ret =~ s/ //g;
+		return $ret;
 	} elsif ($field eq 'fursona') {
 		return lc(pull('user'));
 	} elsif ($field eq 'date') {
