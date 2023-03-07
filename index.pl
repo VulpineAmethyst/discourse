@@ -49,7 +49,7 @@ sub pull($field) {
 		return tc(pull('adjective') . ' ' . pull('creature'));
 	} elsif ($field eq 'handle') {
 		my $ret = lc(pull('user'));
-		$ret =~ s/ //g;
+		$ret =~ s/[ .]//g;
 		return $ret;
 	} elsif ($field eq 'fursona') {
 		return lc(pull('user'));
@@ -116,7 +116,7 @@ while (my $cgi = CGI::Fast->new()) {
 		$data{discourse}  =~ s/\[(.*?)\]/{$1}/g;
 		$data{author}     = pull('user');
 		$data{user}       = '@' . lc($data{author});
-		$data{user}       =~ s/ //g;
+		$data{user}       =~ s/[ .]//g;
 		$data{date}       = pull('date');
 		$data{likes}      = int($rand->rand(9999));
 		$data{retweets}   = int($rand->rand(9999));
