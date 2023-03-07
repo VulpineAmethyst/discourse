@@ -32,6 +32,14 @@ if (@ARGV) {
 	$name = $ARGV[0];
 }
 
+if ($name =~ m!(/|\\)!) {
+	die "nope.\n";
+}
+
+if (-e $name) {
+	unlink $name;
+}
+
 my $db = DBI->connect('dbi:SQLite:dbname=' . $name, '', '');
 
 say 'Initializing database ' . $name . '...';
